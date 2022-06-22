@@ -1,18 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7994602&assignment_repo_type=AssignmentRepo)
-
-# golang-starter
-
-![CI](https://github.com/lumochift/golang-starter/workflows/CI/badge.svg)
-
-Basic starting point for a new golang project.
-
-## Creating a new project
-
-- Rename `cmd/golang-starter` folder
-- Rename `APP_NAME` in `Makefile`
-- Rename `go.mod` with proper username and repository names
-- Update imports accordingly
-
 ## Usage
 
 - `make build`
@@ -22,7 +7,7 @@ Basic starting point for a new golang project.
 
 ## DOC API
 
-- Get User
+- `Get User`
 
   URL: localhost:8000/user
 
@@ -40,7 +25,7 @@ Basic starting point for a new golang project.
   }
   ]
 
-- Get User By Id
+- `Get User By Id`
 
   URL: localhost:8000/user-show?id=1
 
@@ -52,7 +37,7 @@ Basic starting point for a new golang project.
   "name": "Eka"
   }
 
-- Store User
+- `Store User`
 
   URL: localhost:8000/user-add
 
@@ -69,7 +54,7 @@ Basic starting point for a new golang project.
   "message": "success create data"
   }
 
-- Update User
+- `Update User`
 
   URL: localhost:8000/user-update?id=1
 
@@ -86,7 +71,7 @@ Basic starting point for a new golang project.
   "name": "eka update"
   }
 
-- Delete User
+- `Delete User`
 
   URL: localhost:8000/user-delete?id=1
 
