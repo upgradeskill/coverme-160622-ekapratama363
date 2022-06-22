@@ -1,5 +1,9 @@
 package main
 
-type Product interface {
-	GetAllProducts()
+type UserInterface interface {
+	GetUser()
+	AddUser()
+	ShowUser()
+	UpdateUser()
+	DeleteUser()
 }

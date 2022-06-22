@@ -8,10 +8,10 @@ import (
 	"net/http"
 )
 
-func responseJson(res http.ResponseWriter, message []byte, httpCode int) {
-	res.Header().Set("Content-type", "application-json")
-	res.WriteHeader(httpCode)
-	res.Write(message)
+func responseJson(w http.ResponseWriter, message []byte, httpCode int) {
+	w.Header().Set("Content-type", "application-json")
+	w.WriteHeader(httpCode)
+	w.Write(message)
 }
 
 func GetUser() http.HandlerFunc {
